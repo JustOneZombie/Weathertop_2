@@ -1,0 +1,58 @@
+{{#each stations}}
+  <section class="ui stacked segment">
+  <h2 class="ui header">
+    {{name}}
+  </h2>
+      <div class="ui equal width padded grid container">
+        <div class="uniform column">
+          <div class="ui inverted segment">
+            <p> LAT: {{latitude}} <br> LONG: {{longitude}} </p>
+            <br><br><br>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui black inverted segment">
+            <div class="left aligned text">Weather
+              <i class="{{weatherIcon}}" style="float: right"></i>
+              <br>{{code}}
+            </div>
+            <br><br><br><br>
+            <br>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui black inverted segment">
+            <div class="left aligned text">Temperature</div>
+            {{latestTemperature}}&degC<br>
+            {{tempFar}}&degF<br>
+            Max Temp: {{maxTemp}} &degC<br>
+            Min Temp: {{minTemp}} &degC<br><br>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui black inverted segment">
+            <div class="left aligned text">Wind</div>
+            {{beaufort}} Bft<br>
+            {{windCompass}}<br>
+            Wind Chill: {{windChill}}<br>
+            Max speed: {{maxWind}}<br>
+            Min speed: {{minWind}}
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui black inverted segment">
+            <div class="left aligned text">Pressure</div>
+            Latest: {{latestPressure}} <br>
+            Max: {{maxPressure}}<br>
+            Min: {{minPressure}}<br><br><br>
+          </div>
+        </div>
+      </div>
+    <a href="/station/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/dashboard/deletestation/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+  </section>
+{{/each}}

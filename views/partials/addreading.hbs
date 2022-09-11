@@ -1,0 +1,29 @@
+<form
+  class="ui stacked segment form"
+  action="/station/{{station.id}}/addreading"
+  method="POST"
+>
+  <div class="two fields">
+    <div class="field">
+      <label>Weather Code</label>
+      <input placeholder="000" type="number" min="100" max="800" step="100" name="code" value="{{code}}">
+    </div>
+    <div class="field">
+      <label>Temperature</label>
+      <input placeholder="0.0C" type="number" step="0.1" name="temperature" value="{{reading.temperature}}">
+    </div>
+    <div class="field">
+      <label>Wind Speed</label>
+      <input placeholder="00.0kMh" type="number" min="1.0" max="117.0" step="0.1" name="windSpeed" value="{{reading.windSpeed}}">
+    </div>
+  <div class="field">
+      <label>Wind Direction</label>
+      <input placeholder="00.0&deg;" type="number" min="0.0" max="360.0" step="0.1" name="windDirection" value="{{reading.windDirection}}">
+    </div>
+    <div class="field">
+      <label>Pressure</label>
+      <input placeholder="000hPa" type="number" name="pressure"value="{{reading.pressure}}">
+    </div>
+    </div>
+  <button class="ui blue submit button">Add Reading</button>
+</form>

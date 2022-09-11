@@ -1,0 +1,187 @@
+{
+  "stationCollection": [
+    {
+      "id": "s1",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Tramore",
+      "latitude": 52.162,
+      "longitude": -7.152,
+      "readings": [
+        {
+          "id": "2181da20-3156-11ed-ad84-a363d86f3fb1",
+          "date": "9/10/2022, 10:15:51 PM",
+          "code": "42",
+          "temperature": "422",
+          "windSpeed": "242",
+          "windDirection": "424",
+          "pressure": "424"
+        },
+        {
+          "readingid": "db3075f0-3159-11ed-ab76-8b82d2e2f36c",
+          "date": "9/10/2022, 10:42:31 PM",
+          "code": "100",
+          "temperature": "5724",
+          "windSpeed": "45324",
+          "windDirection": "45",
+          "pressure": "452"
+        },
+        {
+          "readingid": "422b6030-315a-11ed-ab76-8b82d2e2f36c",
+          "date": "9/10/2022, 10:45:24 PM",
+          "code": "100",
+          "temperature": "0.4",
+          "windSpeed": "6",
+          "windDirection": "5",
+          "pressure": "5"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Dunmore",
+      "latitude": 52.149,
+      "longitude": -6.983,
+      "readings": [
+        {
+          "readingid": "r3",
+          "date": "2021-01-20 10:31:00",
+          "code": "700",
+          "temperature": 8,
+          "windSpeed": 1,
+          "windDirection": 90,
+          "pressure": 1000
+        },
+        {
+          "readingid": "r4",
+          "date": "2021-01-19 09:31:00",
+          "code": "200",
+          "temperature": 0.5,
+          "windSpeed": 2.5,
+          "windDirection": 120,
+          "pressure": 999
+        }
+      ]
+    },
+    {
+      "id": "b9a7c990-314c-11ed-8ecf-e7f98e4c74a9",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Lost Sector Bow",
+      "readings": []
+    },
+    {
+      "id": "c7c4ad50-3155-11ed-ad84-a363d86f3fb1",
+      "userid": "550bc370-3137-11ed-a34d-2f81fcad6a6e",
+      "name": "Kerry",
+      "latitude": "42",
+      "longitude": "424",
+      "readings": [
+        {
+          "id": "cbe754f0-3155-11ed-ad84-a363d86f3fb1",
+          "date": "9/10/2022, 10:13:28 PM",
+          "code": "424",
+          "temperature": "242",
+          "windSpeed": "424",
+          "windDirection": "24",
+          "pressure": "2"
+        },
+        {
+          "readingid": "9b530c10-3210-11ed-9f3a-49b8ab10ffc2",
+          "date": "9/11/2022, 8:30:42 PM",
+          "code": "400",
+          "temperature": "25",
+          "windSpeed": "100",
+          "windDirection": "12",
+          "pressure": "1000"
+        },
+        {
+          "readingid": "a9c97090-3210-11ed-9f3a-49b8ab10ffc2",
+          "date": "9/11/2022, 8:31:06 PM",
+          "code": "100",
+          "temperature": "16",
+          "windSpeed": "26",
+          "windDirection": "145",
+          "pressure": "444"
+        },
+        {
+          "readingid": "1e2ee1b0-321e-11ed-90ce-07e6e8669c86",
+          "date": "9/11/2022, 10:07:25 PM",
+          "code": "300",
+          "temperature": "25",
+          "windSpeed": "102",
+          "windDirection": "142",
+          "pressure": "400"
+        },
+        {
+          "readingid": "99b75510-321e-11ed-9fb0-d7b2cf8bf6de",
+          "date": "9/11/2022, 10:10:52 PM",
+          "code": "200",
+          "temperature": "25",
+          "windSpeed": "100",
+          "windDirection": "100",
+          "pressure": "1000"
+        },
+        {
+          "readingid": "d8f1db10-321e-11ed-8887-c5261f6bf478",
+          "date": "9/11/2022, 10:12:38 PM",
+          "code": "200",
+          "temperature": "25",
+          "windSpeed": "100",
+          "windDirection": "123",
+          "pressure": "1000"
+        }
+      ],
+      "weatherIcon": "cloud sun icon",
+      "beaufort": 11,
+      "latestPressure": "1000",
+      "latestTemperature": "25",
+      "tempFar": 77,
+      "minTemp": "16",
+      "maxTemp": "25",
+      "minWind": "100",
+      "maxWind": "424",
+      "minPressure": "1000",
+      "maxPressure": "444",
+      "windCompass": "East",
+      "windChill": "25.61"
+    },
+    {
+      "id": "f00ca720-3210-11ed-9f3a-49b8ab10ffc2",
+      "userid": "550bc370-3137-11ed-a34d-2f81fcad6a6e",
+      "name": "Carlow",
+      "latitude": "52",
+      "longitude": "6",
+      "readings": [
+        {
+          "readingid": "0be1be90-3211-11ed-9f3a-49b8ab10ffc2",
+          "date": "9/11/2022, 8:33:51 PM",
+          "code": "600",
+          "temperature": "18",
+          "windSpeed": "10",
+          "windDirection": "45",
+          "pressure": "230"
+        },
+        {
+          "readingid": "1660aa20-3211-11ed-9f3a-49b8ab10ffc2",
+          "date": "9/11/2022, 8:34:08 PM",
+          "code": "400",
+          "temperature": "29",
+          "windSpeed": "46",
+          "windDirection": "100",
+          "pressure": "1000"
+        }
+      ],
+      "weatherIcon": "cloud rain icon",
+      "beaufort": 2,
+      "latestPressure": "230",
+      "latestTemperature": "18",
+      "tempFar": null,
+      "minTemp": "18",
+      "maxTemp": "18",
+      "minWind": "10",
+      "maxWind": "10",
+      "minPressure": "230",
+      "maxPressure": "230"
+    }
+  ]
+}
